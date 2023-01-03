@@ -11,4 +11,4 @@ class ProjectSerializer(serializers.ModelSerializer):
             'technology', 
             'created_at',
         )
-        read_only_fields = ('created_at')
+        read_only_fields = ('created_at',)
