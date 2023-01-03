@@ -14,6 +14,7 @@ en ella debes poner las variables de entorno que por ahora solo son
 - SECRET_KEY=loquesea
 - DEBUG=True
 
-y ya estausa el python manage.py runserver para correrlo y prueba en la ruta https://localhost:8000/api/project
+- bien ahora corre las migraciones con "python manage.py makemigrations" y "python manage.py migrate"
+y ya esta usa el python manage.py runserver para correrlo y prueba en la ruta https://localhost:8000/api/project
 
 FELICIDADES CORRISTE TU PRIMER PROYECTO DE DJANGO REST :D creare mas diariamente asi que esten atentos 
